@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Author levTolstoi = new Author("Толстой", "Лев");
-        Author ivanTurgenev = new Author("Тургеньев", "Иван");
+        Author ivanTurgenev = new Author("Тургенев", "Иван");
         Book warAndPeace = new Book("Война и Мир", levTolstoi, 1867);
         Book fatherAndSons = new Book("Отцы и Дети", ivanTurgenev, 1862);
         System.out.println(levTolstoi.getName());
@@ -12,6 +12,8 @@ public class Main {
         System.out.println("warAndPeace = " + warAndPeace.getReleaseData());
         System.out.println("fatherAndSons = " + fatherAndSons.getReleaseData());
         System.out.println("warAndPeace = " + warAndPeace.getAuthor());
+        System.out.println("ivanTurgenev = " + ivanTurgenev.getSurname());
+        System.out.println("levTolstoi = " + levTolstoi.getSurname());
 
 
 
